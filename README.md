@@ -8,6 +8,7 @@ Chrome's V8 JavaScript engine. It provides an event driven, non-blocking
 highly scalable server-side applications using JavaScript.
 
 Node. js is primarily used for non-blocking, event-driven servers, due to its single-threaded nature
+<img src="https://thewebsmithsite.files.wordpress.com/2015/11/pngbase643f17317a5d7e7fe9.png"/>
 
 ## What does mean by Blocking and No-Blocking I/O
 
@@ -56,6 +57,14 @@ of those events is detected.
 <img src="https://i.stack.imgur.com/BTm1H.png"/>
 <img src="https://i.ytimg.com/vi/sFdj0I_ul7k/maxresdefault.jpg"/>
 
+## What is single thread and is nodejs single thread?
+What is meant by single threaded?
+"Single-threaded" means that we open a single connection and measure the speeds from that. "Multi-threaded" means that we're using multiple connections - usually anywhere from 3 to 8 - at the same time, and measure the total speed across them all.
+
+Node JS Platform doesn't follow the Multi-Threaded Request/Response Stateless Model. It follows the Single-Threaded with Event Loop Model. Node JS Processing model mainly inspired by JavaScript Event-based model with JavaScript callback mechanism
+
+Clients Send request to Web Server. Node JS Web Server internally maintains a Limited Thread pool to provide services to the Client Requests. Node JS Web Server receives those requests and places them into a Queue. It is known as “Event Queue”.
 ## What is v8 engine?
 
 V8 is Google's open source high-performance JavaScript and WebAssembly engine, written in C++. It is used in Chrome and in Node. js, among others. It implements ECMAScript and WebAssembly, and runs on Windows 7 or later, macOS 10.12+, and Linux systems that use x64, IA-32, ARM, or MIPS processors.
+  
