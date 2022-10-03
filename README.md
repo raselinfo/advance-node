@@ -70,4 +70,4 @@ Clients Send request to Web Server. Node JS Web Server internally maintains a Li
 
 V8 is Google's open source high-performance JavaScript and WebAssembly engine, written in C++. It is used in Chrome and in Node. js, among others. It implements ECMAScript and WebAssembly, and runs on Windows 7 or later, macOS 10.12+, and Linux systems that use x64, IA-32, ARM, or MIPS processors.
 
-<a href="https://www.youtube.com/watch?v=JwSEqEalg7E">Must watch to know the whole picture of nodejs</a>
+<a href="https://www.youtube.com/watch?v=JwSEqEalg7E"> 🎥 Must watch to know the whole picture of nodejs</a>
