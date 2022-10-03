@@ -20,9 +20,9 @@ A Non-Blocking server means that it is able to have multiple requests in progres
 
 I/O (input/output), pronounced "eye-oh," describes any operation, program, or device that transfers data to or from a computer. Typical I/O devices are printers, hard disks, keyboards, and mouses.
 
-input/output, I/O refers primarily to the program's interaction with the system's disk and network. Examples of I/O operations include reading/writing data from/to a disk, making HTTP requests, and talking to databases. They are very slow compared to accessing memory (RAM) or doing work on the CPU
+input/output, I/O refers primarily to the program's interaction with the system's disk and network. Examples of I/O operations include reading/writing data from/to a disk, making HTTP requests, and talking to databases. They a re very slow compared to accessing memory (RAM) or doing work on the CPU
 
-# Why is Node JS good for IO?
+## Why is Node JS good for IO?
 
 In its most basic form Node. js is best suited for this type of computing. All I/O in Node. js is non-blocking and it allows other requests to be served while waiting for a particular read or write to complete
 
@@ -58,13 +58,16 @@ of those events is detected.
 <img src="https://i.ytimg.com/vi/sFdj0I_ul7k/maxresdefault.jpg"/>
 
 ## What is single thread and is nodejs single thread?
+
 What is meant by single threaded?
 "Single-threaded" means that we open a single connection and measure the speeds from that. "Multi-threaded" means that we're using multiple connections - usually anywhere from 3 to 8 - at the same time, and measure the total speed across them all.
 
 Node JS Platform doesn't follow the Multi-Threaded Request/Response Stateless Model. It follows the Single-Threaded with Event Loop Model. Node JS Processing model mainly inspired by JavaScript Event-based model with JavaScript callback mechanism
 
 Clients Send request to Web Server. Node JS Web Server internally maintains a Limited Thread pool to provide services to the Client Requests. Node JS Web Server receives those requests and places them into a Queue. It is known as “Event Queue”.
+
 ## What is v8 engine?
 
 V8 is Google's open source high-performance JavaScript and WebAssembly engine, written in C++. It is used in Chrome and in Node. js, among others. It implements ECMAScript and WebAssembly, and runs on Windows 7 or later, macOS 10.12+, and Linux systems that use x64, IA-32, ARM, or MIPS processors.
-  
+
+<a href="https://www.youtube.com/watch?v=JwSEqEalg7E">Must watch to know the whole picture of nodejs</a>
